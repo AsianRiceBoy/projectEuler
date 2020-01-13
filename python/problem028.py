@@ -12,4 +12,7 @@ for n in range(3,1002,2):
 
 result += 1 #add 1 to account for n = 1
 
-print (result) 
+print (result)
+
+#one line solution
+print(1+sum(map(lambda n:(4*n**2 + 6*(1-n)), [a for a in range(3,1002,2)])))

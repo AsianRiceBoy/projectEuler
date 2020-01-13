@@ -6,3 +6,6 @@ for i in range(1000):
 		sum += i
 
 print(sum)
+
+#one line solution
+print (sum(filter(lambda i:(i % 3 == 0) or (i % 5 == 0), [a for a in range(1000)])))
